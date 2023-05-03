@@ -34,12 +34,7 @@ class ViewController: UIViewController {
         greenColorDouble.text = String(format: "%.2f", greenSlider.value)
         blueColorDouble.text = String(format: "%.2f", blueSlider.value)
         
-        viewWhichChanging.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 2)
-        
-        
-        
+        viewWhichChanging.backgroundColor = UIColor(red: CGFloat(redSlider.value), green: CGFloat(greenSlider.value), blue: CGFloat(blueSlider.value), alpha: 2)   
     }
-    
-    
 }
 
